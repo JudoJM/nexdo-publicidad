@@ -1,7 +1,7 @@
 import { ArrowRight, Sparkles } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import nexdoHero from "@/assets/nexdo-hero-mockup.jpg";
-import nexdoLogo from "@/assets/nexdo-logo.jpg";
+import nexdoHero from "@/assets/nexdo-dashboard.png";
+import nexdoLogo from "@/assets/nexdo-logo-real.png";
 
 const Hero = () => {
   return (
@@ -19,7 +19,7 @@ const Hero = () => {
             <img 
               src={nexdoLogo} 
               alt="Nexdo Logo" 
-              className="w-20 h-20 rounded-2xl shadow-glow"
+              className="w-16 h-16 object-contain"
             />
           </div>
           
@@ -81,8 +81,8 @@ const Hero = () => {
           <div className="relative z-10 float">
             <img 
               src={nexdoHero} 
-              alt="Nexdo App Preview" 
-              className="w-full max-w-md mx-auto rounded-3xl shadow-card pulse-glow"
+              alt="Nexdo App Dashboard Preview" 
+              className="w-full max-w-lg mx-auto rounded-2xl shadow-card pulse-glow border border-primary/20"
             />
           </div>
           
