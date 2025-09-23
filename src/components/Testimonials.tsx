@@ -96,12 +96,8 @@ const Testimonials = () => {
         </div>
         
         {/* Trust indicators */}
-        <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+        <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
           <div className="animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
-            <div className="text-3xl font-bold text-gradient">10k+</div>
-            <div className="text-sm text-muted-foreground">Usuarios activos</div>
-          </div>
-          <div className="animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
             <div className="text-3xl font-bold text-gradient">4.9★</div>
             <div className="text-sm text-muted-foreground">Calificación</div>
           </div>
