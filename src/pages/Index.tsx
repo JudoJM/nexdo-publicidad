@@ -4,6 +4,7 @@ import AppScreenshots from "@/components/AppScreenshots";
 import Benefits from "@/components/Benefits";
 import Testimonials from "@/components/Testimonials";
 import CallToAction from "@/components/CallToAction";
+import Contact from "@/components/Contact";
 import ProgressBar from "@/components/ProgressBar";
 
 const Index = () => {
@@ -15,6 +16,7 @@ const Index = () => {
       <AppScreenshots />
       <Benefits />
       <Testimonials />
+      <Contact />
       <CallToAction />
     </main>
   );

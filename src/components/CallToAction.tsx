@@ -52,7 +52,7 @@ const CallToAction = () => {
           
           <div className="text-center">
             <div className="text-2xl font-bold text-success mb-1">
-              Solo $3.500 COP
+              Solo $5.000 COP
             </div>
             <div className="text-sm text-muted-foreground">
               Precio de lanzamiento

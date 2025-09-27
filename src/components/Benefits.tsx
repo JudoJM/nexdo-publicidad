@@ -26,7 +26,7 @@ const benefits = [
   {
     icon: DollarSign,
     title: "Precio súper accesible",
-    description: "Solo $3.500 COP - menos que un café al día para transformar tu vida",
+    description: "Solo $5.000 COP - menos que un café al día para transformar tu vida",
     color: "text-nexdo-cyan",
     gradient: "from-nexdo-cyan/20 to-nexdo-cyan/5"
   }
