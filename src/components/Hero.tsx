@@ -71,8 +71,13 @@ const Hero = () => {
           
           {/* Price highlight */}
           <div className="inline-flex items-center gap-2 bg-success/10 text-success px-4 py-2 rounded-full">
-            <span className="text-sm font-medium">Solo $3.500 COP</span>
+            <span className="text-sm font-medium">Solo $5.000 COP</span>
             <span className="text-xs bg-success/20 px-2 py-1 rounded-full">¡Precio accesible!</span>
+          </div>
+          
+          {/* Maintenance info */}
+          <div className="inline-flex items-center gap-2 bg-nexdo-blue/10 text-nexdo-blue px-4 py-2 rounded-full mt-3">
+            <span className="text-sm font-medium">Actualizaciones cada 6 meses incluidas</span>
           </div>
         </div>
         
